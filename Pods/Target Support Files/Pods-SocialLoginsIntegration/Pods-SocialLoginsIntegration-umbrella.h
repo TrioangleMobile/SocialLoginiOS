@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_SocialLoginsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_SocialLoginsVersionString[];
+FOUNDATION_EXPORT double Pods_SocialLoginsIntegrationVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_SocialLoginsIntegrationVersionString[];
 

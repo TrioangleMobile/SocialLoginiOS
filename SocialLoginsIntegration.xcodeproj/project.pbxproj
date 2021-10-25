@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		184C155A2726B5F10018A00C /* SocialLogins.docc in Sources */ = {isa = PBXBuildFile; fileRef = 184C15592726B5F10018A00C /* SocialLogins.docc */; };
-		184C15602726B5F10018A00C /* SocialLogins.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 184C15552726B5F10018A00C /* SocialLogins.framework */; };
+		184C15602726B5F10018A00C /* SocialLoginsIntegration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 184C15552726B5F10018A00C /* SocialLoginsIntegration.framework */; };
 		184C15652726B5F10018A00C /* SocialLoginsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C15642726B5F10018A00C /* SocialLoginsTests.swift */; };
 		184C15662726B5F10018A00C /* SocialLogins.h in Headers */ = {isa = PBXBuildFile; fileRef = 184C15582726B5F10018A00C /* SocialLogins.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		184C15702726B6320018A00C /* SocialLoginHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C156F2726B6320018A00C /* SocialLoginHandler.swift */; };
 		184C15722726C27F0018A00C /* SocialLogins.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 184C15712726C27F0018A00C /* SocialLogins.podspec */; };
-		184C157A2726C5B80018A00C /* Pods_SocialLogins.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C24FA14A79EB151F15F18F56 /* Pods_SocialLogins.framework */; };
-		184C157C2726C97F0018A00C /* SocialLogins.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 184C15552726B5F10018A00C /* SocialLogins.framework */; };
-		D381661B39D8D5FBDB0FB08C /* Pods_SocialLogins_SocialLoginsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 291D39DD76C0A5B7CF1D05E5 /* Pods_SocialLogins_SocialLoginsTests.framework */; };
+		184C157C2726C97F0018A00C /* SocialLoginsIntegration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 184C15552726B5F10018A00C /* SocialLoginsIntegration.framework */; };
+		9288B742BC7D02B07F67999E /* Pods_SocialLoginsIntegration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39D2A2CE8E3D84193048342D /* Pods_SocialLoginsIntegration.framework */; };
+		D03577F673846A94444AABCF /* Pods_SocialLoginsIntegration_SocialLoginsIntegrationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E31596547ADC83B368D415B /* Pods_SocialLoginsIntegration_SocialLoginsIntegrationTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,18 +30,22 @@
 
 /* Begin PBXFileReference section */
 		101447668FCA736DDB89F6AD /* Pods-SocialLogins.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialLogins.release.xcconfig"; path = "Target Support Files/Pods-SocialLogins/Pods-SocialLogins.release.xcconfig"; sourceTree = "<group>"; };
-		184C15552726B5F10018A00C /* SocialLogins.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SocialLogins.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		184C15552726B5F10018A00C /* SocialLoginsIntegration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SocialLoginsIntegration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		184C15582726B5F10018A00C /* SocialLogins.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocialLogins.h; sourceTree = "<group>"; };
 		184C15592726B5F10018A00C /* SocialLogins.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SocialLogins.docc; sourceTree = "<group>"; };
-		184C155F2726B5F10018A00C /* SocialLoginsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialLoginsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		184C155F2726B5F10018A00C /* SocialLoginsIntegrationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialLoginsIntegrationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		184C15642726B5F10018A00C /* SocialLoginsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialLoginsTests.swift; sourceTree = "<group>"; };
 		184C156F2726B6320018A00C /* SocialLoginHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialLoginHandler.swift; sourceTree = "<group>"; };
 		184C15712726C27F0018A00C /* SocialLogins.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SocialLogins.podspec; sourceTree = "<group>"; };
 		184C15732726C5A80018A00C /* FBSDKLoginKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FBSDKLoginKit.xcframework; path = Pods/FBSDKLoginKit/XCFrameworks/FBSDKLoginKit.xcframework; sourceTree = "<group>"; };
 		184C15772726C5B20018A00C /* GoogleSignIn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleSignIn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		291D39DD76C0A5B7CF1D05E5 /* Pods_SocialLogins_SocialLoginsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialLogins_SocialLoginsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		38E159E3A81E471D146D40BA /* Pods-SocialLogins-SocialLoginsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialLogins-SocialLoginsTests.release.xcconfig"; path = "Target Support Files/Pods-SocialLogins-SocialLoginsTests/Pods-SocialLogins-SocialLoginsTests.release.xcconfig"; sourceTree = "<group>"; };
-		C24FA14A79EB151F15F18F56 /* Pods_SocialLogins.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialLogins.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39D2A2CE8E3D84193048342D /* Pods_SocialLoginsIntegration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialLoginsIntegration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56CF4083B017C6EE3EBF5155 /* Pods-SocialLoginsIntegration-SocialLoginsIntegrationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialLoginsIntegration-SocialLoginsIntegrationTests.debug.xcconfig"; path = "Target Support Files/Pods-SocialLoginsIntegration-SocialLoginsIntegrationTests/Pods-SocialLoginsIntegration-SocialLoginsIntegrationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		590F19DAC6102F396298C058 /* Pods-SocialLoginsIntegration-SocialLoginsIntegrationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialLoginsIntegration-SocialLoginsIntegrationTests.release.xcconfig"; path = "Target Support Files/Pods-SocialLoginsIntegration-SocialLoginsIntegrationTests/Pods-SocialLoginsIntegration-SocialLoginsIntegrationTests.release.xcconfig"; sourceTree = "<group>"; };
+		87747279C25F02183969DC1A /* Pods-SocialLoginsIntegration.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialLoginsIntegration.debug.xcconfig"; path = "Target Support Files/Pods-SocialLoginsIntegration/Pods-SocialLoginsIntegration.debug.xcconfig"; sourceTree = "<group>"; };
+		9E31596547ADC83B368D415B /* Pods_SocialLoginsIntegration_SocialLoginsIntegrationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialLoginsIntegration_SocialLoginsIntegrationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9547CD9BED3A20A16FD9DA1 /* Pods-SocialLoginsIntegration.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialLoginsIntegration.release.xcconfig"; path = "Target Support Files/Pods-SocialLoginsIntegration/Pods-SocialLoginsIntegration.release.xcconfig"; sourceTree = "<group>"; };
 		C2B672FDDB9DC003E7556F02 /* Pods-SocialLogins-SocialLoginsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialLogins-SocialLoginsTests.debug.xcconfig"; path = "Target Support Files/Pods-SocialLogins-SocialLoginsTests/Pods-SocialLogins-SocialLoginsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C44791565C590E92E7141E01 /* Pods-SocialLogins.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialLogins.debug.xcconfig"; path = "Target Support Files/Pods-SocialLogins/Pods-SocialLogins.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -51,8 +55,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				184C157A2726C5B80018A00C /* Pods_SocialLogins.framework in Frameworks */,
-				184C157C2726C97F0018A00C /* SocialLogins.framework in Frameworks */,
+				184C157C2726C97F0018A00C /* SocialLoginsIntegration.framework in Frameworks */,
+				9288B742BC7D02B07F67999E /* Pods_SocialLoginsIntegration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,8 +64,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				184C15602726B5F10018A00C /* SocialLogins.framework in Frameworks */,
-				D381661B39D8D5FBDB0FB08C /* Pods_SocialLogins_SocialLoginsTests.framework in Frameworks */,
+				184C15602726B5F10018A00C /* SocialLoginsIntegration.framework in Frameworks */,
+				D03577F673846A94444AABCF /* Pods_SocialLoginsIntegration_SocialLoginsIntegrationTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,8 +87,8 @@
 		184C15562726B5F10018A00C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				184C15552726B5F10018A00C /* SocialLogins.framework */,
-				184C155F2726B5F10018A00C /* SocialLoginsTests.xctest */,
+				184C15552726B5F10018A00C /* SocialLoginsIntegration.framework */,
+				184C155F2726B5F10018A00C /* SocialLoginsIntegrationTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -114,6 +118,10 @@
 				101447668FCA736DDB89F6AD /* Pods-SocialLogins.release.xcconfig */,
 				C2B672FDDB9DC003E7556F02 /* Pods-SocialLogins-SocialLoginsTests.debug.xcconfig */,
 				38E159E3A81E471D146D40BA /* Pods-SocialLogins-SocialLoginsTests.release.xcconfig */,
+				87747279C25F02183969DC1A /* Pods-SocialLoginsIntegration.debug.xcconfig */,
+				A9547CD9BED3A20A16FD9DA1 /* Pods-SocialLoginsIntegration.release.xcconfig */,
+				56CF4083B017C6EE3EBF5155 /* Pods-SocialLoginsIntegration-SocialLoginsIntegrationTests.debug.xcconfig */,
+				590F19DAC6102F396298C058 /* Pods-SocialLoginsIntegration-SocialLoginsIntegrationTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -123,8 +131,8 @@
 			children = (
 				184C15772726C5B20018A00C /* GoogleSignIn.framework */,
 				184C15732726C5A80018A00C /* FBSDKLoginKit.xcframework */,
-				C24FA14A79EB151F15F18F56 /* Pods_SocialLogins.framework */,
-				291D39DD76C0A5B7CF1D05E5 /* Pods_SocialLogins_SocialLoginsTests.framework */,
+				39D2A2CE8E3D84193048342D /* Pods_SocialLoginsIntegration.framework */,
+				9E31596547ADC83B368D415B /* Pods_SocialLoginsIntegration_SocialLoginsIntegrationTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -143,9 +151,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		184C15542726B5F10018A00C /* SocialLogins */ = {
+		184C15542726B5F10018A00C /* SocialLoginsIntegration */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 184C15692726B5F10018A00C /* Build configuration list for PBXNativeTarget "SocialLogins" */;
+			buildConfigurationList = 184C15692726B5F10018A00C /* Build configuration list for PBXNativeTarget "SocialLoginsIntegration" */;
 			buildPhases = (
 				CAB38C47A886834597E6416C /* [CP] Check Pods Manifest.lock */,
 				184C15502726B5F10018A00C /* Headers */,
@@ -157,14 +165,14 @@
 			);
 			dependencies = (
 			);
-			name = SocialLogins;
+			name = SocialLoginsIntegration;
 			productName = SocialLogins;
-			productReference = 184C15552726B5F10018A00C /* SocialLogins.framework */;
+			productReference = 184C15552726B5F10018A00C /* SocialLoginsIntegration.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		184C155E2726B5F10018A00C /* SocialLoginsTests */ = {
+		184C155E2726B5F10018A00C /* SocialLoginsIntegrationTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 184C156C2726B5F10018A00C /* Build configuration list for PBXNativeTarget "SocialLoginsTests" */;
+			buildConfigurationList = 184C156C2726B5F10018A00C /* Build configuration list for PBXNativeTarget "SocialLoginsIntegrationTests" */;
 			buildPhases = (
 				D088FB3CC128864EC44678D4 /* [CP] Check Pods Manifest.lock */,
 				184C155B2726B5F10018A00C /* Sources */,
@@ -177,9 +185,9 @@
 			dependencies = (
 				184C15622726B5F10018A00C /* PBXTargetDependency */,
 			);
-			name = SocialLoginsTests;
+			name = SocialLoginsIntegrationTests;
 			productName = SocialLoginsTests;
-			productReference = 184C155F2726B5F10018A00C /* SocialLoginsTests.xctest */;
+			productReference = 184C155F2726B5F10018A00C /* SocialLoginsIntegrationTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -200,7 +208,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 184C154F2726B5F10018A00C /* Build configuration list for PBXProject "SocialLogins" */;
+			buildConfigurationList = 184C154F2726B5F10018A00C /* Build configuration list for PBXProject "SocialLoginsIntegration" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -213,8 +221,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				184C15542726B5F10018A00C /* SocialLogins */,
-				184C155E2726B5F10018A00C /* SocialLoginsTests */,
+				184C15542726B5F10018A00C /* SocialLoginsIntegration */,
+				184C155E2726B5F10018A00C /* SocialLoginsIntegrationTests */,
 			);
 		};
 /* End PBXProject section */
@@ -253,7 +261,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SocialLogins-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-SocialLoginsIntegration-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -275,7 +283,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SocialLogins-SocialLoginsTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-SocialLoginsIntegration-SocialLoginsIntegrationTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -288,15 +296,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SocialLogins-SocialLoginsTests/Pods-SocialLogins-SocialLoginsTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-SocialLoginsIntegration-SocialLoginsIntegrationTests/Pods-SocialLoginsIntegration-SocialLoginsIntegrationTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SocialLogins-SocialLoginsTests/Pods-SocialLogins-SocialLoginsTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-SocialLoginsIntegration-SocialLoginsIntegrationTests/Pods-SocialLoginsIntegration-SocialLoginsIntegrationTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SocialLogins-SocialLoginsTests/Pods-SocialLogins-SocialLoginsTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SocialLoginsIntegration-SocialLoginsIntegrationTests/Pods-SocialLoginsIntegration-SocialLoginsIntegrationTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -324,7 +332,7 @@
 /* Begin PBXTargetDependency section */
 		184C15622726B5F10018A00C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 184C15542726B5F10018A00C /* SocialLogins */;
+			target = 184C15542726B5F10018A00C /* SocialLoginsIntegration */;
 			targetProxy = 184C15612726B5F10018A00C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -454,7 +462,7 @@
 		};
 		184C156A2726B5F10018A00C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C44791565C590E92E7141E01 /* Pods-SocialLogins.debug.xcconfig */;
+			baseConfigurationReference = 87747279C25F02183969DC1A /* Pods-SocialLoginsIntegration.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -483,7 +491,7 @@
 		};
 		184C156B2726B5F10018A00C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 101447668FCA736DDB89F6AD /* Pods-SocialLogins.release.xcconfig */;
+			baseConfigurationReference = A9547CD9BED3A20A16FD9DA1 /* Pods-SocialLoginsIntegration.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -512,7 +520,7 @@
 		};
 		184C156D2726B5F10018A00C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C2B672FDDB9DC003E7556F02 /* Pods-SocialLogins-SocialLoginsTests.debug.xcconfig */;
+			baseConfigurationReference = 56CF4083B017C6EE3EBF5155 /* Pods-SocialLoginsIntegration-SocialLoginsIntegrationTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,7 +543,7 @@
 		};
 		184C156E2726B5F10018A00C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 38E159E3A81E471D146D40BA /* Pods-SocialLogins-SocialLoginsTests.release.xcconfig */;
+			baseConfigurationReference = 590F19DAC6102F396298C058 /* Pods-SocialLoginsIntegration-SocialLoginsIntegrationTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -559,7 +567,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		184C154F2726B5F10018A00C /* Build configuration list for PBXProject "SocialLogins" */ = {
+		184C154F2726B5F10018A00C /* Build configuration list for PBXProject "SocialLoginsIntegration" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				184C15672726B5F10018A00C /* Debug */,
@@ -568,7 +576,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		184C15692726B5F10018A00C /* Build configuration list for PBXNativeTarget "SocialLogins" */ = {
+		184C15692726B5F10018A00C /* Build configuration list for PBXNativeTarget "SocialLoginsIntegration" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				184C156A2726B5F10018A00C /* Debug */,
@@ -577,7 +585,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		184C156C2726B5F10018A00C /* Build configuration list for PBXNativeTarget "SocialLoginsTests" */ = {
+		184C156C2726B5F10018A00C /* Build configuration list for PBXNativeTarget "SocialLoginsIntegrationTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				184C156D2726B5F10018A00C /* Debug */,

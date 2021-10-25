@@ -15,9 +15,9 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "SocialLogins"
+  spec.name         = "SocialLoginsIntegration"
   spec.version      = "0.0.1"
-  spec.summary      = "SocialLogins is a Helper Pod .it Help to integrate the Facebook and Google Sign in"
+  spec.summary      = "SocialLoginsIntegration is a Helper Pod .it Help to integrate the Facebook and Google Sign in"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-  TODO: Google Sign in and Facebook Signin is Now Easy To Handle with this pod , SocialLogins is a Helper Pod .it Help to integrate the Facebook and Google Sign in
+  TODO: Google Sign in and Facebook Signin is Now Easy To Handle with this pod , SocialLoginsIntegration is a Helper Pod .it Help to integrate the Facebook and Google Sign in
                    DESC
 
   spec.homepage     = "https://github.com/iOS-Team-Trioangle/social_logins"
