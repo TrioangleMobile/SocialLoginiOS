@@ -14,6 +14,7 @@
 		184C15702726B6320018A00C /* SocialLoginHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C156F2726B6320018A00C /* SocialLoginHandler.swift */; };
 		184C15722726C27F0018A00C /* SocialLogins.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 184C15712726C27F0018A00C /* SocialLogins.podspec */; };
 		184C157A2726C5B80018A00C /* Pods_SocialLogins.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C24FA14A79EB151F15F18F56 /* Pods_SocialLogins.framework */; };
+		184C157C2726C97F0018A00C /* SocialLogins.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 184C15552726B5F10018A00C /* SocialLogins.framework */; };
 		D381661B39D8D5FBDB0FB08C /* Pods_SocialLogins_SocialLoginsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 291D39DD76C0A5B7CF1D05E5 /* Pods_SocialLogins_SocialLoginsTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +52,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				184C157A2726C5B80018A00C /* Pods_SocialLogins.framework in Frameworks */,
+				184C157C2726C97F0018A00C /* SocialLogins.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
