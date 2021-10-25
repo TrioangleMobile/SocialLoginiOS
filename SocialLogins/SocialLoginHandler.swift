@@ -37,6 +37,12 @@ class SocialLoginsHandler : NSObject {
     }
     
     public
+    func doGoogleHasProfile() -> Bool {
+        guard let hasImage = GIDSignIn.sharedInstance.currentUser?.profile?.hasImage else { return false }
+        return hasImage
+    }
+    
+    public
     func doGoogleSignOut() {
         GIDSignIn.sharedInstance.signOut()
     }
