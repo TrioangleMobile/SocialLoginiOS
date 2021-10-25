@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SocialLoginsIntegration"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "SocialLoginsIntegration is a Helper Pod .it Help to integrate the Facebook and Google Sign in"
 
   # This description is used to generate tags and improve search results.
