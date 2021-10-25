@@ -13,8 +13,13 @@
 		184C15662726B5F10018A00C /* SocialLogins.h in Headers */ = {isa = PBXBuildFile; fileRef = 184C15582726B5F10018A00C /* SocialLogins.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		184C15702726B6320018A00C /* SocialLoginHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C156F2726B6320018A00C /* SocialLoginHandler.swift */; };
 		184C15722726C27F0018A00C /* SocialLogins.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 184C15712726C27F0018A00C /* SocialLogins.podspec */; };
+		184C15742726C5A80018A00C /* FBSDKLoginKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 184C15732726C5A80018A00C /* FBSDKLoginKit.xcframework */; };
+		184C15752726C5A80018A00C /* FBSDKLoginKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 184C15732726C5A80018A00C /* FBSDKLoginKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		184C15782726C5B20018A00C /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 184C15772726C5B20018A00C /* GoogleSignIn.framework */; };
+		184C15792726C5B20018A00C /* GoogleSignIn.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 184C15772726C5B20018A00C /* GoogleSignIn.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		184C157A2726C5B80018A00C /* Pods_SocialLogins.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C24FA14A79EB151F15F18F56 /* Pods_SocialLogins.framework */; };
+		184C157B2726C5B80018A00C /* Pods_SocialLogins.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C24FA14A79EB151F15F18F56 /* Pods_SocialLogins.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D381661B39D8D5FBDB0FB08C /* Pods_SocialLogins_SocialLoginsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 291D39DD76C0A5B7CF1D05E5 /* Pods_SocialLogins_SocialLoginsTests.framework */; };
-		DC1EC5BFBF4F22A051452215 /* Pods_SocialLogins.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C24FA14A79EB151F15F18F56 /* Pods_SocialLogins.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +32,22 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		184C15762726C5A80018A00C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				184C15752726C5A80018A00C /* FBSDKLoginKit.xcframework in Embed Frameworks */,
+				184C15792726C5B20018A00C /* GoogleSignIn.framework in Embed Frameworks */,
+				184C157B2726C5B80018A00C /* Pods_SocialLogins.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		101447668FCA736DDB89F6AD /* Pods-SocialLogins.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialLogins.release.xcconfig"; path = "Target Support Files/Pods-SocialLogins/Pods-SocialLogins.release.xcconfig"; sourceTree = "<group>"; };
 		184C15552726B5F10018A00C /* SocialLogins.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SocialLogins.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +57,8 @@
 		184C15642726B5F10018A00C /* SocialLoginsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialLoginsTests.swift; sourceTree = "<group>"; };
 		184C156F2726B6320018A00C /* SocialLoginHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialLoginHandler.swift; sourceTree = "<group>"; };
 		184C15712726C27F0018A00C /* SocialLogins.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SocialLogins.podspec; sourceTree = "<group>"; };
+		184C15732726C5A80018A00C /* FBSDKLoginKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FBSDKLoginKit.xcframework; path = Pods/FBSDKLoginKit/XCFrameworks/FBSDKLoginKit.xcframework; sourceTree = "<group>"; };
+		184C15772726C5B20018A00C /* GoogleSignIn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleSignIn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		291D39DD76C0A5B7CF1D05E5 /* Pods_SocialLogins_SocialLoginsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialLogins_SocialLoginsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		38E159E3A81E471D146D40BA /* Pods-SocialLogins-SocialLoginsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialLogins-SocialLoginsTests.release.xcconfig"; path = "Target Support Files/Pods-SocialLogins-SocialLoginsTests/Pods-SocialLogins-SocialLoginsTests.release.xcconfig"; sourceTree = "<group>"; };
 		C24FA14A79EB151F15F18F56 /* Pods_SocialLogins.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialLogins.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,7 +71,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC1EC5BFBF4F22A051452215 /* Pods_SocialLogins.framework in Frameworks */,
+				184C15782726C5B20018A00C /* GoogleSignIn.framework in Frameworks */,
+				184C15742726C5A80018A00C /* FBSDKLoginKit.xcframework in Frameworks */,
+				184C157A2726C5B80018A00C /* Pods_SocialLogins.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +142,8 @@
 		C85453F5C6DCF461D0646885 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				184C15772726C5B20018A00C /* GoogleSignIn.framework */,
+				184C15732726C5A80018A00C /* FBSDKLoginKit.xcframework */,
 				C24FA14A79EB151F15F18F56 /* Pods_SocialLogins.framework */,
 				291D39DD76C0A5B7CF1D05E5 /* Pods_SocialLogins_SocialLoginsTests.framework */,
 			);
@@ -146,6 +173,7 @@
 				184C15512726B5F10018A00C /* Sources */,
 				184C15522726B5F10018A00C /* Frameworks */,
 				184C15532726B5F10018A00C /* Resources */,
+				184C15762726C5A80018A00C /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
