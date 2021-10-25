@@ -12,6 +12,8 @@
 		184C15652726B5F10018A00C /* SocialLoginsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C15642726B5F10018A00C /* SocialLoginsTests.swift */; };
 		184C15662726B5F10018A00C /* SocialLogins.h in Headers */ = {isa = PBXBuildFile; fileRef = 184C15582726B5F10018A00C /* SocialLogins.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		184C15702726B6320018A00C /* SocialLoginHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C156F2726B6320018A00C /* SocialLoginHandler.swift */; };
+		D381661B39D8D5FBDB0FB08C /* Pods_SocialLogins_SocialLoginsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 291D39DD76C0A5B7CF1D05E5 /* Pods_SocialLogins_SocialLoginsTests.framework */; };
+		DC1EC5BFBF4F22A051452215 /* Pods_SocialLogins.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C24FA14A79EB151F15F18F56 /* Pods_SocialLogins.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,12 +27,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		101447668FCA736DDB89F6AD /* Pods-SocialLogins.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialLogins.release.xcconfig"; path = "Target Support Files/Pods-SocialLogins/Pods-SocialLogins.release.xcconfig"; sourceTree = "<group>"; };
 		184C15552726B5F10018A00C /* SocialLogins.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SocialLogins.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		184C15582726B5F10018A00C /* SocialLogins.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocialLogins.h; sourceTree = "<group>"; };
 		184C15592726B5F10018A00C /* SocialLogins.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SocialLogins.docc; sourceTree = "<group>"; };
 		184C155F2726B5F10018A00C /* SocialLoginsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialLoginsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		184C15642726B5F10018A00C /* SocialLoginsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialLoginsTests.swift; sourceTree = "<group>"; };
 		184C156F2726B6320018A00C /* SocialLoginHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialLoginHandler.swift; sourceTree = "<group>"; };
+		291D39DD76C0A5B7CF1D05E5 /* Pods_SocialLogins_SocialLoginsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialLogins_SocialLoginsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38E159E3A81E471D146D40BA /* Pods-SocialLogins-SocialLoginsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialLogins-SocialLoginsTests.release.xcconfig"; path = "Target Support Files/Pods-SocialLogins-SocialLoginsTests/Pods-SocialLogins-SocialLoginsTests.release.xcconfig"; sourceTree = "<group>"; };
+		C24FA14A79EB151F15F18F56 /* Pods_SocialLogins.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialLogins.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2B672FDDB9DC003E7556F02 /* Pods-SocialLogins-SocialLoginsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialLogins-SocialLoginsTests.debug.xcconfig"; path = "Target Support Files/Pods-SocialLogins-SocialLoginsTests/Pods-SocialLogins-SocialLoginsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C44791565C590E92E7141E01 /* Pods-SocialLogins.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialLogins.debug.xcconfig"; path = "Target Support Files/Pods-SocialLogins/Pods-SocialLogins.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC1EC5BFBF4F22A051452215 /* Pods_SocialLogins.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +55,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				184C15602726B5F10018A00C /* SocialLogins.framework in Frameworks */,
+				D381661B39D8D5FBDB0FB08C /* Pods_SocialLogins_SocialLoginsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +68,8 @@
 				184C15572726B5F10018A00C /* SocialLogins */,
 				184C15632726B5F10018A00C /* SocialLoginsTests */,
 				184C15562726B5F10018A00C /* Products */,
+				865E48B6163EA2E8B9C8092C /* Pods */,
+				C85453F5C6DCF461D0646885 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,6 +100,27 @@
 			path = SocialLoginsTests;
 			sourceTree = "<group>";
 		};
+		865E48B6163EA2E8B9C8092C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C44791565C590E92E7141E01 /* Pods-SocialLogins.debug.xcconfig */,
+				101447668FCA736DDB89F6AD /* Pods-SocialLogins.release.xcconfig */,
+				C2B672FDDB9DC003E7556F02 /* Pods-SocialLogins-SocialLoginsTests.debug.xcconfig */,
+				38E159E3A81E471D146D40BA /* Pods-SocialLogins-SocialLoginsTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C85453F5C6DCF461D0646885 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C24FA14A79EB151F15F18F56 /* Pods_SocialLogins.framework */,
+				291D39DD76C0A5B7CF1D05E5 /* Pods_SocialLogins_SocialLoginsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -106,6 +139,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 184C15692726B5F10018A00C /* Build configuration list for PBXNativeTarget "SocialLogins" */;
 			buildPhases = (
+				CAB38C47A886834597E6416C /* [CP] Check Pods Manifest.lock */,
 				184C15502726B5F10018A00C /* Headers */,
 				184C15512726B5F10018A00C /* Sources */,
 				184C15522726B5F10018A00C /* Frameworks */,
@@ -124,9 +158,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 184C156C2726B5F10018A00C /* Build configuration list for PBXNativeTarget "SocialLoginsTests" */;
 			buildPhases = (
+				D088FB3CC128864EC44678D4 /* [CP] Check Pods Manifest.lock */,
 				184C155B2726B5F10018A00C /* Sources */,
 				184C155C2726B5F10018A00C /* Frameworks */,
 				184C155D2726B5F10018A00C /* Resources */,
+				F875FEB903579F6093FC86CA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -191,6 +227,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CAB38C47A886834597E6416C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SocialLogins-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D088FB3CC128864EC44678D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SocialLogins-SocialLoginsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F875FEB903579F6093FC86CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SocialLogins-SocialLoginsTests/Pods-SocialLogins-SocialLoginsTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SocialLogins-SocialLoginsTests/Pods-SocialLogins-SocialLoginsTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SocialLogins-SocialLoginsTests/Pods-SocialLogins-SocialLoginsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		184C15512726B5F10018A00C /* Sources */ = {
@@ -345,6 +445,7 @@
 		};
 		184C156A2726B5F10018A00C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C44791565C590E92E7141E01 /* Pods-SocialLogins.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -373,6 +474,7 @@
 		};
 		184C156B2726B5F10018A00C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 101447668FCA736DDB89F6AD /* Pods-SocialLogins.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -401,6 +503,7 @@
 		};
 		184C156D2726B5F10018A00C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2B672FDDB9DC003E7556F02 /* Pods-SocialLogins-SocialLoginsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -423,6 +526,7 @@
 		};
 		184C156E2726B5F10018A00C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38E159E3A81E471D146D40BA /* Pods-SocialLogins-SocialLoginsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
