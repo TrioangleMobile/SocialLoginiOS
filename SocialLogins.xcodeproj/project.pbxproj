@@ -13,12 +13,7 @@
 		184C15662726B5F10018A00C /* SocialLogins.h in Headers */ = {isa = PBXBuildFile; fileRef = 184C15582726B5F10018A00C /* SocialLogins.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		184C15702726B6320018A00C /* SocialLoginHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C156F2726B6320018A00C /* SocialLoginHandler.swift */; };
 		184C15722726C27F0018A00C /* SocialLogins.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 184C15712726C27F0018A00C /* SocialLogins.podspec */; };
-		184C15742726C5A80018A00C /* FBSDKLoginKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 184C15732726C5A80018A00C /* FBSDKLoginKit.xcframework */; };
-		184C15752726C5A80018A00C /* FBSDKLoginKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 184C15732726C5A80018A00C /* FBSDKLoginKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		184C15782726C5B20018A00C /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 184C15772726C5B20018A00C /* GoogleSignIn.framework */; };
-		184C15792726C5B20018A00C /* GoogleSignIn.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 184C15772726C5B20018A00C /* GoogleSignIn.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		184C157A2726C5B80018A00C /* Pods_SocialLogins.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C24FA14A79EB151F15F18F56 /* Pods_SocialLogins.framework */; };
-		184C157B2726C5B80018A00C /* Pods_SocialLogins.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C24FA14A79EB151F15F18F56 /* Pods_SocialLogins.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D381661B39D8D5FBDB0FB08C /* Pods_SocialLogins_SocialLoginsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 291D39DD76C0A5B7CF1D05E5 /* Pods_SocialLogins_SocialLoginsTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,22 +26,6 @@
 			remoteInfo = SocialLogins;
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		184C15762726C5A80018A00C /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				184C15752726C5A80018A00C /* FBSDKLoginKit.xcframework in Embed Frameworks */,
-				184C15792726C5B20018A00C /* GoogleSignIn.framework in Embed Frameworks */,
-				184C157B2726C5B80018A00C /* Pods_SocialLogins.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		101447668FCA736DDB89F6AD /* Pods-SocialLogins.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialLogins.release.xcconfig"; path = "Target Support Files/Pods-SocialLogins/Pods-SocialLogins.release.xcconfig"; sourceTree = "<group>"; };
@@ -71,8 +50,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				184C15782726C5B20018A00C /* GoogleSignIn.framework in Frameworks */,
-				184C15742726C5A80018A00C /* FBSDKLoginKit.xcframework in Frameworks */,
 				184C157A2726C5B80018A00C /* Pods_SocialLogins.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -173,7 +150,6 @@
 				184C15512726B5F10018A00C /* Sources */,
 				184C15522726B5F10018A00C /* Frameworks */,
 				184C15532726B5F10018A00C /* Resources */,
-				184C15762726C5A80018A00C /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -404,7 +380,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -462,7 +438,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
