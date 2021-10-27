@@ -8,10 +8,27 @@
 import Foundation
 import GoogleSignIn
 import FBSDKLoginKit
+import CloudKit
+import UIKit
 
 open
 class SocialLoginsHandler : NSObject {
+    
+    //---------------------------------------------
+    // MARK: - Shared Variable
+    //---------------------------------------------
+    
     public static let shared = SocialLoginsHandler()
+    
+    //---------------------------------------------
+    // MARK: - Local Variable
+    //---------------------------------------------
+    
+    private let fbLoginManager : LoginManager = LoginManager()
+    
+    //---------------------------------------------
+    // MARK: - Google Login
+    //---------------------------------------------
     
     public
     func handleGoogle(url: URL) -> Bool {
@@ -35,7 +52,6 @@ class SocialLoginsHandler : NSObject {
             }
         }
     }
-    
     public
     func doGoogleHasProfile() -> Bool {
         guard let hasImage = GIDSignIn.sharedInstance.currentUser?.profile?.hasImage else { return false }
@@ -61,4 +77,94 @@ class SocialLoginsHandler : NSObject {
             }
         }
     }
+    
+    //---------------------------------------------
+    // MARK: - Facebook Login
+    //---------------------------------------------
+    
+    public
+    func doFacebookLogin(permissions: [String],
+                         ViewController : UIViewController,
+                         completion : @escaping (Result<LoginManagerLoginResult,Error>) -> Void) {
+        self.fbLoginManager.logIn(permissions: permissions,
+                                  from: ViewController) { loginResult, error in
+            if let result = loginResult ,
+               error == nil {
+                completion(.success(result))
+            } else {
+                guard let error = error else { return }
+                completion(.failure(error))
+            }
+        }
+    }
+    
+    public
+    func doFacebookLogout() {
+        self.fbLoginManager.logOut()
+    }
+    
+    public
+    func doGetFacebookUserDetails(graphPath: String,
+                                  parameters: [String: Any],
+                                  completion : @escaping (Result<(FacebookResult),Error>) -> Void) {
+        if let token = AccessToken.current,
+           !token.isExpired {
+            GraphRequest(graphPath: graphPath,
+                         parameters: parameters)
+                .start { connetion, result, error in
+                    if let result = result,
+                       let resultDict = result as? [String : Any],
+                       error == nil,
+                       let connetion = connetion {
+                        completion(.success(FacebookResult(connetion: connetion,
+                                                           accessToken: token.tokenString,
+                                                           userDetails: resultDict)))
+                    } else {
+                        guard let error = error else { return }
+                        completion(.failure(error))
+                    }
+                }
+        } else { print("Token is Missing") }
+    }
+    
+    public
+    func handleFacebook(application: UIApplication,
+                        url: URL,
+                        sourceApplication: String?,
+                        annotation: Any) -> Bool {
+        let handled = ApplicationDelegate.shared.application(application,
+                                                             open: url as URL,
+                                                             sourceApplication: sourceApplication,
+                                                             annotation: annotation)
+        return handled
+    }
+}
+
+extension LoginManagerLoginResult {
+    public
+    func doFacebookImagePermissionCheck() -> Bool {
+        return self.grantedPermissions.contains("public_profile")
+    }
+}
+
+public
+class FacebookResult : FacebookUserResult {
+    public var connetion: GraphRequestConnecting
+    public var accessToken: String
+    public var userDetails: [String : Any]
+    
+    init(connetion: GraphRequestConnecting,
+         accessToken : String,
+         userDetails : [String : Any]) {
+        self.connetion   = connetion
+        self.accessToken = accessToken
+        self.userDetails = userDetails
+    }
+}
+
+public
+protocol FacebookUserResult {
+    var connetion: GraphRequestConnecting { get }
+    var accessToken : String { get }
+    var userDetails : [String : Any] { get }
 }
