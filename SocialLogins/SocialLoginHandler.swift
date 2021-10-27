@@ -128,6 +128,11 @@ class SocialLoginsHandler : NSObject {
     }
     
     public
+    func activateFacebookActivities() {
+        AppEvents.shared.activateApp()
+    }
+    
+    public
     func handleFacebook(application: UIApplication,
                         url: URL,
                         sourceApplication: String?,
