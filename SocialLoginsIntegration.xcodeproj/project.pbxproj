@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,7 +13,7 @@
 		184C15662726B5F10018A00C /* SocialLogins.h in Headers */ = {isa = PBXBuildFile; fileRef = 184C15582726B5F10018A00C /* SocialLogins.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		184C15702726B6320018A00C /* SocialLoginHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C156F2726B6320018A00C /* SocialLoginHandler.swift */; };
 		184C157C2726C97F0018A00C /* SocialLoginsIntegration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 184C15552726B5F10018A00C /* SocialLoginsIntegration.framework */; };
-		184C157E2726D5F30018A00C /* SocialLoginsIntegration.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 184C157D2726D5F20018A00C /* SocialLoginsIntegration.podspec */; };
+		18F306692731109600FBBE16 /* SocialLoginsIntegration.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 184C157D2726D5F20018A00C /* SocialLoginsIntegration.podspec */; };
 		9288B742BC7D02B07F67999E /* Pods_SocialLoginsIntegration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39D2A2CE8E3D84193048342D /* Pods_SocialLoginsIntegration.framework */; };
 		D03577F673846A94444AABCF /* Pods_SocialLoginsIntegration_SocialLoginsIntegrationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E31596547ADC83B368D415B /* Pods_SocialLoginsIntegration_SocialLoginsIntegrationTests.framework */; };
 /* End PBXBuildFile section */
@@ -209,7 +209,7 @@
 				};
 			};
 			buildConfigurationList = 184C154F2726B5F10018A00C /* Build configuration list for PBXProject "SocialLoginsIntegration" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 3.1";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -232,7 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				184C157E2726D5F30018A00C /* SocialLoginsIntegration.podspec in Resources */,
+				18F306692731109600FBBE16 /* SocialLoginsIntegration.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +376,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				EXCLUDED_ARCHS = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -440,6 +441,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXCLUDED_ARCHS = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;

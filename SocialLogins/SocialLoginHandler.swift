@@ -143,6 +143,25 @@ class SocialLoginsHandler : NSObject {
                                                              annotation: annotation)
         return handled
     }
+    
+    public
+    func handleFacebookDidFinish(application: UIApplication,
+                                 options: [UIApplication.LaunchOptionsKey : Any]){
+        ApplicationDelegate.shared
+            .application(application,
+                         didFinishLaunchingWithOptions: options)
+    }
+    
+    public
+    func handleFacebookOptions(application: UIApplication,
+                               url: URL,
+                               options: [UIApplication.OpenURLOptionsKey : Any]) -> Bool {
+        let handled = ApplicationDelegate.shared
+            .application(application,
+                         open: url,
+                         options: options)
+        return handled
+    }
 }
 
 extension LoginManagerLoginResult {
