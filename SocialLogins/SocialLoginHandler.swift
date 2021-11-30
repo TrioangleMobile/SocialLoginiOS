@@ -146,7 +146,7 @@ class SocialLoginsHandler : NSObject {
     
     public
     func handleFacebookDidFinish(application: UIApplication,
-                                 options: [UIApplication.LaunchOptionsKey : Any]){
+                                 options: [UIApplication.LaunchOptionsKey : Any]?){
         ApplicationDelegate.shared
             .application(application,
                          didFinishLaunchingWithOptions: options)
